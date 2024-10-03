@@ -1,0 +1,14 @@
+C:\Users\beror\Downloads\Tercero_IMAT\paradigmas_progra\P2\P2_codigo\bin\Debug\net8.0\Practice2.exe
+C:\Users\beror\Downloads\Tercero_IMAT\paradigmas_progra\P2\P2_codigo\bin\Debug\net8.0\Practice2.deps.json
+C:\Users\beror\Downloads\Tercero_IMAT\paradigmas_progra\P2\P2_codigo\bin\Debug\net8.0\Practice2.runtimeconfig.json
+C:\Users\beror\Downloads\Tercero_IMAT\paradigmas_progra\P2\P2_codigo\bin\Debug\net8.0\Practice2.dll
+C:\Users\beror\Downloads\Tercero_IMAT\paradigmas_progra\P2\P2_codigo\bin\Debug\net8.0\Practice2.pdb
+C:\Users\beror\Downloads\Tercero_IMAT\paradigmas_progra\P2\P2_codigo\obj\Debug\net8.0\Practice2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\beror\Downloads\Tercero_IMAT\paradigmas_progra\P2\P2_codigo\obj\Debug\net8.0\Practice2.AssemblyInfoInputs.cache
+C:\Users\beror\Downloads\Tercero_IMAT\paradigmas_progra\P2\P2_codigo\obj\Debug\net8.0\Practice2.AssemblyInfo.cs
+C:\Users\beror\Downloads\Tercero_IMAT\paradigmas_progra\P2\P2_codigo\obj\Debug\net8.0\Practice2.csproj.CoreCompileInputs.cache
+C:\Users\beror\Downloads\Tercero_IMAT\paradigmas_progra\P2\P2_codigo\obj\Debug\net8.0\Practice2.dll
+C:\Users\beror\Downloads\Tercero_IMAT\paradigmas_progra\P2\P2_codigo\obj\Debug\net8.0\refint\Practice2.dll
+C:\Users\beror\Downloads\Tercero_IMAT\paradigmas_progra\P2\P2_codigo\obj\Debug\net8.0\Practice2.pdb
+C:\Users\beror\Downloads\Tercero_IMAT\paradigmas_progra\P2\P2_codigo\obj\Debug\net8.0\Practice2.genruntimeconfig.cache
+C:\Users\beror\Downloads\Tercero_IMAT\paradigmas_progra\P2\P2_codigo\obj\Debug\net8.0\ref\Practice2.dll
