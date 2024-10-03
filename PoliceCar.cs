@@ -5,7 +5,7 @@
         //constant string as TypeOfVehicle wont change allong PoliceCar instances
         private const string typeOfVehicle = "Police Car"; 
         private bool isPatrolling;
-        private SpeedRadar speedRadar;
+        private SpeedRadar? speedRadar;
         public PoliceStation policeStation;
 
         public PoliceCar(string plate, PoliceStation policeStation) : base(typeOfVehicle, plate)
@@ -15,17 +15,32 @@
             this.policeStation = policeStation;
         }
 
+        private void LaunchAlarm(string vehiclePlate)
+        {
+            WriteMessage("Launching alarm for vehicle with plate: " + vehiclePlate);
+            policeStation.LaunchAlarm(vehiclePlate);
+        }
+
         public void UseRadar(Vehicle vehicle)
         {
-            if (isPatrolling)
+            if (isPatrolling && speedRadar != null)
             {
-                speedRadar.TriggerRadar(vehicle);
+                string ilegal_plate = speedRadar.TriggerRadar(vehicle);
+                if (ilegal_plate != null)
+                {
+                    LaunchAlarm(ilegal_plate);
+                }
+
                 string meassurement = speedRadar.GetLastReading();
                 Console.WriteLine(WriteMessage($"Triggered radar. Result: {meassurement}"));
             }
-            else
+            else if (speedRadar != null)
             {
                 Console.WriteLine(WriteMessage($"has no active radar."));
+            }
+            else
+            {
+                Console.WriteLine(WriteMessage($"has no radar."));
             }
         }
 
