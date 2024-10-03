@@ -9,9 +9,9 @@ namespace Practice2
         private static string typeOfVehicle = "Scooter";
 
         // Constructor
-        public Scooter(string color, string model) : base(typeOfVehicle, null)
+        public Scooter(string plate) : base(typeOfVehicle, plate)
         {
-            this.Plate = $"{color} {model}";
+            
         }
     }
 }
