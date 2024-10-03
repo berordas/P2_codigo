@@ -11,7 +11,9 @@ namespace Practice2
         // Constructor
         public Scooter(string plate) : base(typeOfVehicle, plate)
         {
-            
+            Console.WriteLine(WriteMessage($"Created"));
         }
+
+
     }
 }

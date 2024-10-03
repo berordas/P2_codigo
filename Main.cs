@@ -17,6 +17,7 @@
             PoliceCar policeCar1 = new PoliceCar("0001 CNP", policeStation, true, city);
             PoliceCar policeCar2 = new PoliceCar("0002 CNP", policeStation, true, city);
             PoliceCar policeCar3 = new PoliceCar("0003 CNP", policeStation, false, city);
+            Scooter scooter1 = new Scooter("Blue scooter");
 
             Console.WriteLine(taxi1.WriteMessage("Created"));
             Console.WriteLine(taxi2.WriteMessage("Created"));
