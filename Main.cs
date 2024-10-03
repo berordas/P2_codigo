@@ -1,15 +1,17 @@
-﻿namespace Practice1
+﻿namespace Practice2
 {
     internal class Program
     {
 
         static void Main()
         {
-            Console.WriteLine("Hola");
             Taxi taxi1 = new Taxi("0001 AAA");
             Taxi taxi2 = new Taxi("0002 BBB");
-            PoliceCar policeCar1 = new PoliceCar("0001 CNP");
-            PoliceCar policeCar2 = new PoliceCar("0002 CNP");
+
+            PoliceStation policeStation = new PoliceStation();
+
+            PoliceCar policeCar1 = new PoliceCar("0001 CNP", policeStation);
+            PoliceCar policeCar2 = new PoliceCar("0002 CNP", policeStation);
 
             Console.WriteLine(taxi1.WriteMessage("Created"));
             Console.WriteLine(taxi2.WriteMessage("Created"));
