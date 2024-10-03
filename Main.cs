@@ -5,10 +5,14 @@
 
         static void Main()
         {
+            City city = new City();
+            Console.WriteLine("City created");
+
             Taxi taxi1 = new Taxi("0001 AAA");
             Taxi taxi2 = new Taxi("0002 BBB");
 
             PoliceStation policeStation = new PoliceStation();
+            Console.WriteLine("Police station created");
 
             PoliceCar policeCar1 = new PoliceCar("0001 CNP", policeStation);
             PoliceCar policeCar2 = new PoliceCar("0002 CNP", policeStation);
