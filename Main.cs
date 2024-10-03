@@ -5,6 +5,7 @@
 
         static void Main()
         {
+            Console.WriteLine("Hola");
             Taxi taxi1 = new Taxi("0001 AAA");
             Taxi taxi2 = new Taxi("0002 BBB");
             PoliceCar policeCar1 = new PoliceCar("0001 CNP");
