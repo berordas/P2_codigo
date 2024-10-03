@@ -35,7 +35,7 @@ namespace Practice2
                 return;
             }
 
-            WriteMessage($"Speeding vehicle with plate '{plate}' detected. Notifying all patrolling police cars.");
+            Console.WriteLine($"Speeding vehicle with plate {plate} detected. Notifying all patrolling police cars.");
             foreach (var policeCar in policeCars)
             {
                 Console.WriteLine(WriteMessage($"{policeCar}: pursuing vehicle with plate {plate}."));

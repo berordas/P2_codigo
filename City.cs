@@ -20,7 +20,7 @@ namespace Practice2
             if (!taxiLicenses.Contains(license))
             {
                 taxiLicenses.Add(license);
-                Console.WriteLine(WriteMessage($"{license}: has been successfully added."));
+                Console.WriteLine(WriteMessage($"{license}: registered."));
             }
             else
             {
@@ -34,18 +34,12 @@ namespace Practice2
             if (taxiLicenses.Contains(license))
             {
                 taxiLicenses.Remove(license);
-                Console.WriteLine(WriteMessage($"{license}: has been successfully removed."));
+                Console.WriteLine(WriteMessage($"{license}: removed."));
             }
             else
             {
                 Console.WriteLine(WriteMessage($"{license}: does not exist."));
             }
-        }
-
-        // Method to get the police station of the city
-        public PoliceStation GetPoliceStation()
-        {
-            return policeStation;
         }
 
         // Implement the IMessageWritter interface
